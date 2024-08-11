@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".FirstScreenActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:importantForAccessibility="no"
+        android:src="@drawable/ic_photo"/>
+
+    <EditText
+        android:id="@+id/name_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginHorizontal="40dp"
+        android:background="@color/white"
+        android:importantForAutofill="no"
+        android:padding="15dp"
+        android:hint="@string/name"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/palidrome_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginHorizontal="40dp"
+        android:background="@color/white"
+        android:importantForAutofill="no"
+        android:padding="15dp"
+        android:hint="@string/ispalidrome"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/btn_check_palidrome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="40dp"
+        android:text="@string/check"
+        android:backgroundTint="@color/btn_color"/>
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="40dp"
+        android:text="@string/next"
+        android:backgroundTint="@color/btn_color"/>
+</LinearLayout>

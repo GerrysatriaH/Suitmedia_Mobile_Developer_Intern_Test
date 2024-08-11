@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Suitmedia</string>
+    <string name="name">Name</string>
+    <string name="ispalidrome">isPalidrome</string>
+    <string name="oke">Oke</string>
+    <string name="check">CHECK</string>
+    <string name="next">NEXT</string>
+    <string name="welcome">Welcome</string>
+    <string name="choose_a_user">Choose a User</string>
+    <string name="no_users_available">No users available.</string>
+</resources>
